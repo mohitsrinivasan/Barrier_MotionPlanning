@@ -1,3 +1,13 @@
+"""
+Description: This code executes a motion planning task for a differential drive robot. The robot needs to visit
+             three regions of interest, while avoiding the obstacle. All regions of interest and the obstacle
+             have been encoded as ellipsoids for simplicity, though the theory of CBFs extends to any shape
+             characterized by closed-form polynomials.
+Author:      Mohit Srinivasan
+Date:        04/04/2020
+"""
+
+
 import rps.robotarium as robotarium
 from rps.utilities import *
 from rps.utilities.barrier_certificates import *
